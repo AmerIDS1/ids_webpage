@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+
+
+
+
+.navbar {
+    height: 70px;
+    background-color: var(--dark-color) ;
+    
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+   
+    padding: 10px 20px;
+    /*display: flex;
+    justify-content: space-between;  */
+}
+
+.navbar .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    position:relative;
+    width: 100px;
+}
+
+.logo img{
+    margin-top: 15px;
+    width: 100px;
+    height: auto;
+}
+
+
+
+/*Style Page Navigation*/
+.page-navigation{
+    margin-top: 10px;
+    position: relative;
+    display: block;
+}
+
+
+
+.page-navigation ul{
+    gap: 10px;
+    display: flex;
+    /*position: relative;*/
+       
+}
+
+.page-navigation ul li{
+    list-style: none;
+    
+}
+
+.page-navigation ul li a{
+    text-decoration: none;
+    color: #fff;    
+}
+
+/* hover effect*/
+.page-navigation a:hover {
+    border-bottom: 2px #fff solid;
+}
+/* adding an active class to highlight current page */
+/*.page-navigation a.active {
+    border-bottom: 2px #fff solid;
+ 
+  } */
+
+/* hide the link that should open and close the page navigayion on small screens */
+.page-navigation .icon {
+    display: none;
+    
+  }
+
+/*Style language menu*/
+.dropdown {
+    position: relative;
+    float: left;
+    margin-top: 5px;
+    
+
+}
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 14px;
+    background-color: #31b3c6;
+    border-radius: 4px;
+    font-family: inherit;
+   
+  }
+
+
+.lang-menu {
+    display: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    padding-top: -15px;
+    /*background-color: #5b5f63;*/
+    min-width: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    z-index: 1;
+
+ }
+
+.lang-menu ul {
+    list-style: none;
+}
+  
+.lang-menu a {
+    float: none;
+    color: white;
+    margin-top: -25px;
+    margin-bottom: 10px;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+   
+
+ }
+  
+.lang-menu a:hover {
+    background-color: #ddd;
+    cursor: pointer;
+    background-color: #31b3c6;
+    margin-top: -25px;
+    padding: 5px 14px;
+ }
+  
+/* Add an active class to highlight the current page */
+
+.dropdown:hover .lang-menu {
+    display: block;
+ }
+ 
+/*MEDIA QUERY: change display of site on different screen sizes*/
+
+/* hide all links, except for the first one ("Home");
+show the hamburger (.icon) link that contains links to all other pages  */
+@media screen and (max-width: 640px) {
+    .page-navigation li:nth-child(2), li:nth-child(3),li:nth-child(4),li:nth-child(5){
+        display: none;
+    }
+
+    .page-navigation .icon {
+        display: block;
+        float: right;
+        
+   }
+
+   .page-navigation li:first-child{
+       padding-right: 120px;
+   }
+    
+        
+}
+
+
+
+
