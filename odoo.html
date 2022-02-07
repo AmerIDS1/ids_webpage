@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/body_style.css">
+    <link rel="stylesheet" href="css/navbar_style.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>Odoo</title>
+    
+</head>
+<body>
+     <!-- Navbar -->
+     <div class="navbar">
+        <div class="container flex">
+            <!--LOGO IMAGE-->
+            <div class="logo">
+                <img src="images/IDS_Logo_No_BG.png" alt="IDS">
+             </div>
+            <!-- Page Navigation -->
+            <div class="page-navigation">
+                <ul>
+                    <li><a href="index.html" class="eng" lang="en">Home</a></li>
+                    <li><a href="index.html" class="fra" lang="fr">Accueil</a></li>
+                    <li><a href="index.html" class="ger" lang="de">Startseite</a></li>
+    
+    
+                    <li><a href="services.html" class="eng" lang="en">Services</a></li>
+                    <li><a href="services.html" class="fra" lang="fr">Services</a></li>
+                    <li><a href="services.html" class="ger" lang="de">Leistungen</a></li>
+    
+    
+                    <li><a href="odoo.html" class="eng" lang="en">Odoo</a></li>
+                    <li><a href="odoo.html" class="fra" lang="fr">Odoo</a></li>
+                    <li><a href="odoo.html" class="ger" lang="de">Odoo</a></li>
+    
+    
+                    <li><a href="sap.html" class="eng" lang="en">SAP</a></li>
+                    <li><a href="sap.html" class="fra" lang="fr">SAP</a></li>
+                    <li><a href="sap.html" class="ger" lang="de">SAP</a></li>
+    
+    
+                    <li><a href="about_us.html" class="eng" lang="en">About us</a></li>
+                    <li><a href="about_us.html" class="fra" lang="fr">A propos</a></li>
+                    <li><a href="about_us.html" class="ger" lang="de">Über uns</a></li>
+    
+                    <li><a href="testimonials.html" class="eng" lang="en">Testimonials</a></li>
+                    <li><a href="testimonials.html" class="fra" lang="fr">Témoignages</a></li>
+                    <li><a href="testimonials.html" class="ger" lang="de">Referenzen</a></li>
+    
+    
+                    <!--load hamburger icon from font-awesome library -->
+                    <!--this link with class="icon" is used to select pages on small screens.-->
+                    <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                        </a> </li>
+                </ul>
+                
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn eng" lang="en">EN
+                    <!--<i class="fas fa-caret-down"></i>-->
+                </button>
+                <button class="dropbtn fra" lang="fr">FR
+                    <!--<i class="fas fa-caret-down"></i>-->
+                </button>
+                <button class="dropbtn ger" lang="de">DE
+                    <!--<i class="fas fa-caret-down"></i>-->
+                </button>
+                    <div class="lang-menu">
+                        <ul>
+                            <li><a id="eng" class="languages english"> EN</a> </li>
+                            <li><a id="fra" class="languages french"> FR</a></li>
+                            <li><a id="ger" class="languages german"> DE</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div> 
+    <!-- END OF NAVBAR-->
+
+
+    <!-- Head -->
+    <section class="header-section bg-dark">
+        <div class="container grid-2">
+            <div>
+                <h1 class="xl">Odoo</h1>
+                <p class="lead">
+                    What is Odoo ?  Odoo is a unique, all-in-one management software. It's beautiful and easy-to-use. 
+                </p>
+            </div>
+            
+            <img src="images/Odoo_Partner_Logo_new.png"  alt="">
+        </div>
+    </section>
+
+    <!-- Sub head Odoo in a Nutshell -->
+    <section class="section-odoo">
+        <div class="container grid-2">
+            <div>
+                <h1 class="lg">Odoo in a Nutshell</h1>
+                    <p class="lead">
+                        Odoo is a suite of highly cost-effective open-source business applications (apps) which have been 
+                        created for almost every need you can think of. <br>&nbsp;<br>
+                        The Odoo suite of apps combine business operations management (accounting, HR, inventory, 
+                        purchasing) with front office (CRM, sales, point-of-sale) and productivity tools (timesheets,
+                        chat), as well as e-commerce and marketing apps. What's more, all these apps are fully integrated 
+                        with each other running on the same platform.
+                </p>
+            </div>
+            <img src="images/Nutshell.png" alt="">
+        </div>
+    </section>
+    
+    <!--
+        FEATURES OF ODOO
+    -->
+
+    <!--<section class=" bg-odoo my-2 py-2">
+        <h2 class="lg text-center py-4">The benefits of Odoo <br> </h2>
+        <div class="container grid_odoo">
+            <div class="text-center">
+                <h2 class="md">Modular</h2>
+                <p class="lead my-1">You only install the applications that you need. <br>&nbsp;<br>
+                </p>
+                <video width="250" height="260" src="animations/Odoo_Modularity_Video_New.mp4" muted autoplay></video>   
+            </div>
+
+            <div class="text-center">
+                <h2 class="md">Scalable</h2>
+                     <p class="lead my-1">In adition to adding apps, you can easily add users
+                        when you need them.
+                        <video width="250" height="260" src="animations/Scalability.mp4" muted autoplay></video>
+                    </p>
+                                    
+            </div>
+        
+            <div class="text-center">
+                <h2 class="md">Fully integrated</h2>
+                <p class="lead my-1">You can easily add native apps and/or third-party apps 
+                    from Odoo's app-store.
+                </p>
+                <a href="services.html" class="btn btn-dark">Read More</a>
+               <video width="250" height="260" src="animations/DrawPolygon.mp4" muted autoplay></video>
+            </div>
+
+            <div class="text-center">
+                <h2 class="md">Intuitive</h2>
+                <p class="lead my-1">You can easily add tailored apps and/or third-party apps 
+                    from Odoo's app-store.
+                </p>
+               
+                <video width="250" height="260" src="animations/DrawPolygon.mp4" muted autoplay></video>
+            </div>
+        </div>
+            <img src="images/help_grow_blue.png" alt="">
+        
+              
+            
+               <img src="images/help_grow_blue.png" alt="">  
+    </section> -->
+
+   <section class="bg-dark my-2 py-2">
+    <h2 class="lg text-center py-4">The benefits of Odoo <br> </h2>
+       <div class="container flex-container">
+            <div class="item">
+                <h2 class="md ">Modular</h2>
+                    <p class="lead my-1 ">Only install the applications that you need.
+                        
+                <video width="225" height="260" src="animations/Odoo_Modularity_Video_New.mp4" muted autoplay></video>
+                    </p>
+            </div>
+            <div class="item">
+                <h2 class="md  ">Scalable</h2>
+                <p class="lead my-1 ">Add new users only when you need to.
+                    <video width="225" height="260" src="animations/Scalability.mp4" muted autoplay></video>
+                </p>
+                
+            </div>
+            <div class="item">
+                <h2 class="md ">Fully integrated</h2>
+                <p class="lead my-1 ">Odoo apps are fully integrated with each other.
+                    <video width="225" height="260" src="animations/DrawPolygon.mp4" muted autoplay>
+                    </video>
+                </p>
+               
+            </div>
+            <div class="item">
+                <h2 class="md ">Intuitive</h2>
+                <p class="lead my-1 "> Apps made with user simplicity in mind.
+                    <video width="225" height="260" src="animations/DrawPolygon.mp4" muted autoplay></video>
+                </p>
+                
+            </div>
+        </div>
+   </section>
+
+
+
+    <!-- ODOO  ONE APP FOR EVERY NEED-->
+    <section class="section">
+        
+        <h3 class="text-center lg">Odoo - one app for every need</h3>
+        <div class="container grid_one_app">
+                
+            <div class="item" >
+                <a href="#Finances">
+                    <p id="Manage" class="md">
+                  
+                   <span text-initial=" Manage your finances" text-more="Need to know more?"></span>
+                    </p>
+                </a>
+                <!--<i class="fas fa-network-wired fa-3x"></i>-->
+                <img src="odoo_app_icons/placeholder.png" alt=""> <img src="odoo_v14_apps_icons/png/account_invoicing.png" alt=""> 
+                <img src="odoo_v14_apps_icons/png/account_accountant.png" alt="">
+                <img src="odoo_app_icons/Odoo_Expenses.png" alt="">
+                <img src="odoo_app_icons/placeholder.png" alt="">
+                <p>
+                    <strong>Invoicing &nbsp; Accounting &nbsp; Expenses</strong> 
+                </p>
+                
+            </div>
+            <div class="item" >
+                <a href="#Operations">
+                <p id="streamline" class="md">
+                    <span text-initial="Streamline your operations" text-more="Need to know more?"></span>
+                </p>
+                </a>
+                <p> 
+                    <img src="odoo_app_icons/placeholder.png" alt=""> <img src="odoo_v14_apps_icons/png/mrp.png" alt=""> 
+                    <img src="odoo_app_icons/Odoo_Inventory.png" alt=""> 
+                    <img src="odoo_app_icons/Odoo_Purchase.png" alt="">
+                    <img src="odoo_app_icons/placeholder.png" alt="">
+                </p>
+                <!--<figure>
+                <img src="odoo_app_icons/Odoo_Inventory.png" alt="">
+                <figcaption><strong>Inventory</strong></figcaption>
+                <img src="odoo_app_icons/Odoo_MRP.png" alt="">
+                <figcaption>Fig.2</figcaption>
+                </figure>-->
+                <!--<i class="fas fa-server fa-3x"></i>-->
+                
+                <p><strong>Manufacturing &nbsp; Inventory &nbsp; Purchase</strong> 
+                </p>
+            </div>
+            <div class="item">
+                <a href="#Services">
+                <p id="integrate" class="md">
+                    <span text-initial="Integrate your services" text-more="Need to know more?"></span>
+                </p>
+                </a>
+                <!--<i class="fas fa-network-wired fa-3x"></i>-->
+                <img src="odoo_app_icons/placeholder.png" alt=""> <img src="odoo_v14_apps_icons/png/hr_timesheet.png" alt=""> 
+                <img src="odoo_app_icons/Odoo_Project.png" alt=""> 
+                <img src="odoo_app_icons/Odoo_Helpdesk.png" alt="">
+                <img src="odoo_app_icons/placeholder.png" alt="">
+                <p>
+                    <strong>Timesheet &nbsp; Project &nbsp; Helpdesk</strong> 
+                </p>
+            </div>
+            <div class="item" >
+                <a href="#Sales">
+                <p id="boost" class="md">
+                    <span text-initial="Boost your sales" text-more="Need to know more?"></span>
+                </p>
+                </a>
+                <!--<i class="fas fa-network-wired fa-3x"></i>-->
+                <img  src="odoo_app_icons/placeholder.png" alt=""> <img src="odoo_v14_apps_icons/png/sale.png" alt=""> 
+                <img src="odoo_app_icons/Odoo_POS.png" alt=""> 
+                <img src="odoo_app_icons/Odoo_CRM.png" alt="">
+                <img src="odoo_app_icons/placeholder.png" alt="">
+                <p>
+                    <strong>Sales &nbsp; POS &nbsp; CRM</strong> 
+                </p>
+            </div>
+            <div class="item">
+                <a href="#Marketing">
+                    <p id="amplify" class="md">
+                        <span text-initial="Amplify your marketing" text-more="Need to know more?" ></span>
+                    </p>
+                </a>
+                <!--<i class="fas fa-network-wired fa-3x"></i>-->
+                <img  src="odoo_app_icons/placeholder.png" alt=""> <img src="odoo_v14_apps_icons/png/mass_mailing.png" alt=""> 
+                <img src="odoo_v14_apps_icons/png/marketing_automation.png" alt="">
+                <img src="odoo_app_icons/placeholder.png" alt="">
+                <p>
+                    <strong>Email Marketing &nbsp; Marketing Automation</strong> 
+                </p>
+            </div>
+            
+            <div class="item" >
+                <a href="#HR">
+                <p id="optimize" class="md">
+                    <span text-initial="Optimize your HR management" text-more="Need to know more?"></span>
+                </p>
+                </a>
+                <!--<i class="fas fa-network-wired fa-3x"></i>-->
+                <img src="odoo_app_icons/placeholder.png" alt=""> <img src="odoo_v14_apps_icons/png/hr_recruitment.png" alt=""> 
+                <img src="odoo_v14_apps_icons/png/hr_holidays.png" alt="">
+                <img src="odoo_v14_apps_icons/png/hr.png" alt="">
+                <img src="odoo_app_icons/placeholder.png" alt="">
+                <p>
+                    <strong>Referral &nbsp; Recruitment &nbsp; Time-off Employees</strong> 
+                </p>
+            </div>
+        </div>
+    </section>  
+    
+    <!--  SUCCESSFUL IMPLEMENTATION  -->
+    <section class="section bg-dark">
+       <div class="container">
+        <h3 class="text-center lg my-3">
+            Increase your productivity, unleash your growth potential and save money with a successful implementation.
+        </h3>
+      
+        <div class="flex">
+            
+            <div class="section-image-left">
+                <img src="images/IDS_Logo_No_BG.png" alt=""> 
+            </div>
+            
+            <div class="section-image-right">
+                <img src="images/odoo_logo_medium.png" alt="">
+            </div>
+
+            
+        </div>
+    </section>
+    
+    <!-- SELECTED APPS AND THEIR FEATURES -->
+    
+    <section class="features-main my-2 ">
+        <div class="container ">
+            
+        <h3 class="lg text-center py-3"> Selected apps and their features</h3>
+        
+            <h3 id="Finances" class="md"> <a href="#Manage"> Accounting </a></h3>
+            <p class="lead"> 
+                With Odoo Accounting you can do more in less time, with features that will change your life. <br> &nbsp; <br>
+                 Stop recording transactions 
+                manually: <strong>Integrated</strong> with other applications such as <strong> Expenses, Inventory, Point of Sale and Sales.</strong>
+            </p>
+            
+        </div>
+        <div class="container grid grid-3">
+            
+            <div class="card flex-apps">
+                <p class="lead">
+                    <strong>Bank Synchronization</strong>  
+                </p>
+                <p>
+                    Get your bank statements synced with your bank automatically, or import files. 
+                </p>
+            </div>
+            <div class="card flex-apps">
+                <p class="lead">
+                    <strong>Invoicing</strong>  
+                </p>
+                <p>
+                    Create sharp and professional invoices, manage recurring billings, and easily track payments.  
+                </p>
+            </div>
+
+            <div class="card flex-apps">
+                <p class="lead">
+                    <strong>Manage Bills & Expenses</strong>  
+                </p>
+                <p>
+                    Control supplier invoices and get a clear forecast of your future bills to pay.   
+                </p>
+            </div>
+
+            <div class="card flex-apps">
+                <p class="lead">
+                    <strong>Easy Reconciliation</strong>  
+                </p>
+                <p>
+                    Save time and automate 95% of reconciliation with Odoo's smart reconciliation tool. 
+                    Get paid faster with Electronic invoicing and automated follow-ups.  
+                </p>
+            </div>
+            <div class="card flex-apps">
+                <p class="lead">
+                    <strong>Clear Dynamic Statements</strong>  
+                </p>
+                <p>
+                    Your reports, the way you like them. Easily create your earnings report, balance sheet or cash flow statements. 
+                    Quickly filter, zoom, annotate and compare any data. Use business intelligence's cubes to report across any dimension. 
+                    
+                      
+                </p>
+            </div>
+        </div>
+        <div class="container ">
+            
+                     
+                <h3 id="Operations" class="md"> <a href="#streamline"> Streamline your operations </a></h3>
+                <p class="lead"> 
+                    to be completed
+                </p>
+                
+        </div>
+
+        <div class="container ">            
+            <h3 id="Services" class="md"> <a href="#integrate"> Integrate your services </a></h3>
+                <p class="lead"> 
+                    to be completed
+                </p>
+                
+        </div>
+        <div class="container ">            
+            <h3 id="Sales" class="md"> <a href="#boost"> Boost your sales </a></h3>
+                <p class="lead"> 
+                    to be completed
+                </p>
+                
+        </div>
+        </div>
+        <div class="container ">            
+            <h3 id="Marketing" class="md"> <a href="#amplify"> Amplify your marketing</a></h3>
+                <p class="lead"> 
+                    to be completed
+                </p>
+                
+        </div>
+        <div class="container ">            
+            <h3 id="HR" class="md"> <a href="#optimize"> Optimize your HR management</a></h3>
+                <p class="lead"> 
+                    to be completed
+                </p>
+                
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid-3 flex">
+            <div class="company-name">
+                <h1>Integrated Data Solutions
+                </h1>
+                <p>Copyright &copy; 2022</p>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="odoo.html">Odoo</a></li>
+                    <li><a href="sap.html">SAP</a></li>
+                    <li><a href="about_us.html">About us</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/translation.js"></script>  
+</body>
+</html>

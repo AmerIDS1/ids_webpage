@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/body_style.css">
+    <link rel="stylesheet" href="css/navbar_style.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="icon" type="image/x-icon" href="images/IDS_Logo_No_BG.png">
+    <title>IDS</title>
+</head>
+<body>
+    <!-- Navbar -->
+   <div class="navbar">
+        <div class="container flex">
+            <!--LOGO IMAGE-->
+            <div class="logo">
+                <img src="images/IDS_Logo_No_BG.png" alt="IDS">
+             </div>
+            <!-- Page Navigation -->
+            <div class="page-navigation">
+                <ul>
+                    <li><a href="index.html" class="eng" lang="en">Home</a></li>
+                    <li><a href="index.html" class="fra" lang="fr">Accueil</a></li>
+                    <li><a href="index.html" class="ger" lang="de">Startseite</a></li>
+
+
+                    <li><a href="services.html" class="eng" lang="en">Services</a></li>
+                    <li><a href="services.html" class="fra" lang="fr">Services</a></li>
+                    <li><a href="services.html" class="ger" lang="de">Leistungen</a></li>
+
+
+                    <li><a href="odoo.html" class="eng" lang="en">Odoo</a></li>
+                    <li><a href="odoo.html" class="fra" lang="fr">Odoo</a></li>
+                    <li><a href="odoo.html" class="ger" lang="de">Odoo</a></li>
+
+
+                    <li><a href="sap.html" class="eng" lang="en">SAP</a></li>
+                    <li><a href="sap.html" class="fra" lang="fr">SAP</a></li>
+                    <li><a href="sap.html" class="ger" lang="de">SAP</a></li>
+
+
+                    <li><a href="about_us.html" class="eng" lang="en">About us</a></li>
+                    <li><a href="about_us.html" class="fra" lang="fr">A propos</a></li>
+                    <li><a href="about_us.html" class="ger" lang="de">Über uns</a></li>
+
+                    <li><a href="testimonials.html" class="eng" lang="en">Testimonials</a></li>
+                    <li><a href="testimonials.html" class="fra" lang="fr">Témoignages</a></li>
+                    <li><a href="testimonials.html" class="ger" lang="de">Referenzen</a></li>
+
+                    <li><a href="contact_form.html" class="eng" lang="en">Contact us</a></li>
+                    <li><a href="contact_form.html" class="fra" lang="fr">Contactez-nous</a></li>
+                    <li><a href="contact_form.html" class="ger" lang="de">Kontakt</a></li>
+
+                    <!--load hamburger icon from font-awesome library -->
+                    <!--this link with class="icon" is used to select pages on small screens.-->
+                    <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                        </a> </li>
+                </ul>
+                
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn eng" lang="en">EN
+                 <!--<i class="fas fa-caret-down"></i>-->
+                </button>
+                <button class="dropbtn fra" lang="fr">FR
+                    <!--<i class="fas fa-caret-down"></i>-->
+                </button>
+                <button class="dropbtn ger" lang="de">DE
+                    <!--<i class="fas fa-caret-down"></i>-->
+                </button>
+
+                <div class="lang-menu">
+                    <ul>
+                        <li><a id="eng" class="languages english active"> EN</a> </li>
+                        <li><a id="fra" class="languages french"> FR</a></li>
+                        <li><a id="ger" class="languages german"> DE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- END OF NAVBAR-->
+    
+    <!-- HEADER-SECTION: WELCOME -->
+    <section class="header-section bg-dark ">
+        <div class="container grid-2">
+            <div class="header-section-text ">
+                <h1 class="lg eng" lang="en">
+                    Welcome to Integrated Data Solutions
+                </h1>
+                <h1 class="lg fra" lang="fr">
+                    Bienvenu chez Integrated Data Solutions
+                </h1>
+                <h1 class="lg ger" lang="de">
+                    Willkommen bei Integrated Data Solutions
+                </h1>
+
+                    <p class="eng" lang="en">
+                        We implement business management software helping you automate and optimize your business processes so that you can free up 
+                        your time to stay ahead of the competition! 
+
+                        Regardless of whether you are a small, medium or a large organisation, we are keen to learn what's keeping you up at night 
+                        when it comes to your financial management information system!
+                    </p>
+
+                    <p class="fra" lang="fr">
+                        Nous mettons en œuvre un logiciel de gestion d'entreprise vous aidant à automatiser et à optimiser
+                        vos processus commerciaux afin que vous puissiez libérer votre temps pour garder une longueur
+                        d'avance sur la concurrence! Que vous soyez une petite, moyenne ou grande organisation, nous
+                        sommes impatients de savoir ce qui vous empêche de dormir la nuit en ce qui concerne votre système
+                        d'information de gestion financière!
+                    </p>
+                    <p class="ger" lang="de">
+                        Wir implementieren betriebswirtschaftliche Software, die Ihnen hilft, Ihre Geschäftsprozesse zu automatisieren
+                        und zu optimieren, damit Sie mehr Zeit haben, um der Konkurrenz einen Schritt voraus zu sein! Unabhängig davon,
+                        ob Sie ein kleines, mittleres oder großes Unternehmen sind, lassen Sie uns wissen, was Sie nachts in Bezug auf
+                        Ihr Finanzmanagement-Informationssystem wach hält!
+                    </p>
+               <!-- <a href="services.html" class="btn btn-outline">Contact Us/Get a free demo</a>-->
+            </div>
+            <div class="header-section-image">
+                <img src="images/IDS_Logo_No_BG.png" alt="">
+            </div>
+
+            
+        </div>
+    </section>
+    
+
+    <!-- SAP and ODOO -->
+    <section class="section bg-light my-">
+        <div class="container">
+        <h1 class="eng md text-center my-1" lang="en">
+            Make your organization the place to be. <br>
+            With modern business management software 
+            implemented in the most efficient way.
+        </h1>
+        <h1 class="fra md text-center my-1" lang="fr">
+            Faites de votre organisation l'endroit où il faut être avec un logiciel de gestion
+            d'entreprise moderne mis en œuvre de la manière la plus efficace.
+        </h1>
+        <h1 class="ger md text-center my-1" lang="de">
+            Machen Sie Ihr Unternehmen zu dem Ort, an dem Sie sein möchten, mit moderner
+            Unternehmensführungssoftware, die auf die effizienteste Weise implementiert wird.
+        </h1>
+
+
+            <h3 class="eng lead my-3" lang="en">
+                 At IDS we 
+                will be at your side to help you: <br>&nbsp; 
+            
+                <ul>
+                    <li><i class="fas fa-check"></i>
+                        streamline your business processes and turn your business systems vision into a 
+                        reality
+                    </li>
+                    <li><i class="fas fa-check"></i>
+                        automate boring and time-consuming repetitive tasks
+                    </li> 
+                    <li><i class="fas fa-check"></i>
+                        free up capacity for creative tasks giving everyone in your organization a chance to realize their full 
+                        potential. 
+                    </li>
+                </ul> <br>
+            </h3>
+            <h3 class="fra lead my-3" lang="fr">
+                Chez IDS, nous serons à vos côtés pour vous aider à <br>&nbsp; 
+           
+               <ul>
+                   <li><i class="fas fa-check"></i>
+                    rationaliser vos processus d'entreprise et à faire de votre vision des systèmes d'entreprise 
+                    une réalité.
+                   </li>
+                   <li><i class="fas fa-check"></i>
+                    automatiser les tâches répétitives ennuyeuses et fastidieuses,
+                   </li> 
+                   <li><i class="fas fa-check"></i>
+                    à libérer des capacités pour des tâches créatives, donnant ainsi à chacun dans votre organisation 
+                    une chance de réaliser son plein potentiel.
+                   </li>
+               </ul> <br>
+           </h3> 
+           <h3 class="ger lead my-3" lang="de">
+            Wir von IDS stehen Ihnen zur Seite, um  <br>&nbsp; 
+       
+           <ul>
+               <li><i class="fas fa-check"></i>
+                Ihre Geschäftsprozesse zu optimieren und Ihre Vision von Geschäftssystemen, 
+                Wirklichkeit werden zu lassen
+               </li>
+               <li><i class="fas fa-check"></i>
+                langweilige und zeitraubende, sich wiederholende Aufgaben zu automatisieren,
+               </li> 
+               <li><i class="fas fa-check"></i>
+                Kapazitäten für kreative Aufgaben freizusetzen, damit jeder in Ihrem 
+                Unternehmen die Chance hat, sein volles Potenzial auszuschöpfen.
+               </li>
+           </ul> <br>
+       </h3>
+
+        </div>
+    </section>
+    <section class="section bg-dark">
+        <div class="container">
+            <h1 class="md text-center my-1"> 
+                Empower your business by unlocking the power of your data with a top quality system implementation which lets 
+                your data do the talking. <br> &nbsp; <br>
+            </h1>
+            <h3 class="lead my-1">
+                With the choice of either SAP or Odoo and other great tools at our disposal, our qualified consultants have all the bases covered 
+                so that you can truly focus on your business and stay ahead of the competition.  <br>  <br>
+            </h3> 
+        </div>  
+    </section>
+
+    <!--SAP AND ODOO-->
+    <!--section class="stats features-main"-->
+    <section class="section bg-light">
+        <div class="container grid_sap_odoo">
+            <div class="card flex">
+                
+                <div>
+                    <img class="sap_odoo" src="images/sap_bpc_No_BG_new.png" alt="">
+                    <p class=" lead my-1">
+                        We specialize in the implementation, development and support of SAP Business Planning and 
+                        Consolidation. SAP Business Planning and Consolidation (SAP BPC) is the leading, unified 
+                        Enterprise Performance Management (EPM) solution that supports planning, reporting and 
+                        consolidation for faster closing and a more accurate and agile budgeting, forecasting and monthly 
+                        reporting process.
+                                    </p>
+                    <a href="sap.html" class="btn btn-dark">Read More</a>
+                
+                 
+                </div>
+            </div>
+            
+            
+            <div class="card flex ">
+                <div>
+                <img class="sap_odoo" src="images/Odoo_Partner_Logo_No_BG.png" alt="">
+                <p class=" lead my-1">We are an official partner of Odoo, the rising star in the global market for 
+                    business management software. Amazing employees deserve amazing software. The only platform you will 
+                    ever need to help run your business: 
+                    integrated apps, kept simple, and loved by millions of happy users.  <br> &nbsp;<br> &nbsp; <br> 
+                    &nbsp; <br> 
+                </p>
+                
+                <a href="odoo.html" class="btn btn-dark">Read More</a>
+
+                </div>
+            </div>
+            
+        </div>
+</section>
+
+
+    
+
+
+    
+
+    <!-- Cli -->
+   <!-- <section class="cli">
+        <div class="container grid">
+            <img src="images/cli.png" alt="">
+            <div class="card">
+                <h3>Easy to use, cross platform CLI</h3>
+            </div>
+            <div class="card">
+                <h3>Deploy in seconds</h3>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- Help You Grow -->
+    <section class="section bg-dark my-2 py-2">
+        <div class="container grid-2 flex "> <!--grid_help_you_grow-->
+            <div>
+                <h2 class="md">Our mission is to help you grow</h2>
+                <p class="lead my-1">Whether you are public or private, whether you start small or are already a large company our bespoke software implementations adapt to your organization and grow with you.
+                </p>
+                <a href="contact_form.html" class="btn btn-primary">Get a Free Demo</a>
+            </div>
+            <video class="help_grow" width="533" height="300" src="animations/Help_Grow_Blue.mp4" muted autoplay></video>
+           <!--<img src="images/help_grow_blue.png" alt="">-->
+        </div>
+    </section>
+
+    <!-- Languages -->
+    <section class="prog_languages bg-light">
+        
+            <h2 class="md text-center my-1">
+                Our solutions are tailored to your needs.<br> 
+                To meet them we "speak" many languages. 
+            </h2>
+        <div class="container flex">
+            <div class="card">
+                <h4>ABAP</h4>
+                <img src="images/logos/abap.png" alt="">
+            </div>
+            <div class="card ">
+                <h4>C++</h4>
+                <img src="images/logos/C++.png" alt="">
+            </div>    
+
+            <div class="card">
+                <h4>JavaScript</h4>
+                <img src="images/logos/javascript.png" alt="">
+            </div>
+
+            <div class="card">
+                <h4>Python</h4>
+                <img src="images/logos/python.png" alt="">
+            </div>
+
+            <div class="card">
+                <h4>SQL</h4>
+                <img src="images/logos/sql.png" alt="">
+            </div>
+            
+            <div class="card">
+                <h4>Tableau</h4>
+                <img src="images/logos/tableau.png" alt="">
+            </div>
+            
+            <div class="card">
+                <h4>Visual Basic</h4>
+                <img src="images/logos/vba.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid-3 flex">
+            <div class="company-name">
+                <h1>Integrated Data Solutions
+                </h1>
+                <p>Copyright &copy; 2022</p>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="odoo.html">Odoo</a></li>
+                    <li><a href="sap.html">SAP</a></li>
+                    <li><a href="about_us.html">About us</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/translation.js"></script>
+   
+</body>
+</html>

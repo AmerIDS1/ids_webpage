@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/body_style.css">
+    <link rel="stylesheet" href="css/navbar_style.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">    
+   
+    
+    <title>Services</title>
+</head>
+<body>
+   <!-- Navbar -->
+   <div class="navbar">
+    <div class="container flex">
+        <!--LOGO IMAGE-->
+        <div class="logo">
+            <img src="images/IDS_Logo_No_BG.png" alt="IDS">
+         </div>
+        <!-- Page Navigation -->
+        <div class="page-navigation">
+            <ul>
+                <li><a href="index.html" class="eng" lang="en">Home</a></li>
+                <li><a href="index.html" class="fra" lang="fr">Accueil</a></li>
+                <li><a href="index.html" class="ger" lang="de">Startseite</a></li>
+
+
+                <li><a href="services.html" class="eng" lang="en">Services</a></li>
+                <li><a href="services.html" class="fra" lang="fr">Services</a></li>
+                <li><a href="services.html" class="ger" lang="de">Leistungen</a></li>
+
+
+                <li><a href="odoo.html" class="eng" lang="en">Odoo</a></li>
+                <li><a href="odoo.html" class="fra" lang="fr">Odoo</a></li>
+                <li><a href="odoo.html" class="ger" lang="de">Odoo</a></li>
+
+
+                <li><a href="sap.html" class="eng" lang="en">SAP</a></li>
+                <li><a href="sap.html" class="fra" lang="fr">SAP</a></li>
+                <li><a href="sap.html" class="ger" lang="de">SAP</a></li>
+
+
+                <li><a href="about_us.html" class="eng" lang="en">About us</a></li>
+                <li><a href="about_us.html" class="fra" lang="fr">A propos</a></li>
+                <li><a href="about_us.html" class="ger" lang="de">Über uns</a></li>
+
+                <li><a href="testimonials.html" class="eng" lang="en">Testimonials</a></li>
+                <li><a href="testimonials.html" class="fra" lang="fr">Témoignages</a></li>
+                <li><a href="testimonials.html" class="ger" lang="de">Referenzen</a></li>
+
+
+                <!--load hamburger icon from font-awesome library -->
+                <!--this link with class="icon" is used to select pages on small screens.-->
+                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    </a> </li>
+            </ul>
+            
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn eng" lang="en">EN
+                <!--<i class="fas fa-caret-down"></i>-->
+            </button>
+            <button class="dropbtn fra" lang="fr">FR
+                <!--<i class="fas fa-caret-down"></i>-->
+            </button>
+            <button class="dropbtn ger" lang="de">DE
+                <!--<i class="fas fa-caret-down"></i>-->
+            </button>
+                <div class="lang-menu">
+                    <ul>
+                        <li><a id="eng" class="languages english"> EN</a> </li>
+                        <li><a id="fra" class="languages french"> FR</a></li>
+                        <li><a id="ger" class="languages german"> DE</a></li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+</div> 
+
+<!-- END OF NAVBAR-->
+
+    <!-- Head -->
+    <section class="header-section bg-dark">
+        <div class="container grid">
+            <div>
+                <h1 class="eng xl" lang="en">
+                    Our Services
+                </h1>
+                <h1 class="fra xl" lang="fr">
+                    Nos Services
+                </h1>
+                <h1 class="ger xl" lang="de">
+                    Unsere Leistungen
+                </h1>
+
+                    <p class="eng lead" lang="en">
+                        We're here to help.
+                    </p>
+
+                    <p class="fra lead" lang="fr">
+                        Nous sommes là pour vous aider.
+                    </p>
+                    <p class="ger lead" lang="de">
+                        Wir sind hier, um zu helfen.
+                    </p>
+
+            </div>
+           <!-- <img src="images/docs.png" alt=""> -->
+            
+        <!--CONTACT US CARD-->
+            <div class="showcase-form card">
+                <h2 class="eng" lang="en">
+                    Contact us
+                </h2>
+                <h2 class="fra" lang="fr">
+                    Contactez-nous
+                </h2>
+                <h2 class="ger" lang="de">
+                    Kontaktieren Sie uns
+                </h2>
+               <!--<form name="contact" netlify-honeypot="bot-field" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact">
+                <p class="hidden">
+                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                  </p>
+                <div class="form-control">
+                    <input type="text" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-control">
+                    <input type="text" name="company" placeholder="Company Name" required>
+                </div>
+                <div class="form-control">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <input type="submit" value="Send" class="btn btn-primary">
+            </form>-->
+            <form>
+                <div class="form-control">
+                    <input class="eng" lang="en" type="text" name="name" placeholder="Name" required>
+                    <input class="fra" lang="fr" type="text" name="name" placeholder="Nom" required>
+                    <input class="ger" lang="de" type="text" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-control">
+                    <input class="eng" lang="en" type="text" name="company" placeholder="Company Name" required>
+                    <input class="fra" lang="fr" type="text" name="company" placeholder="Nom de l'entreprise" required>
+                    <input class="ger" lang="de" type="text" name="company" placeholder="Unternehmensname" required>
+                </div>
+                <div class="form-control">
+                    <input class="eng" lang="en" type="email" name="email" placeholder="Email" required>
+                    <input class="fra" lang="fr" type="email" name="email" placeholder="Email" required>
+                    <input class="ger" lang="de" type="email" name="email" placeholder="Email" required>
+                </div>
+                <input type="submit" value="Send" class="btn btn-primary eng" lang="en">
+                <input type="submit" value="Envoyer" class="btn btn-primary fra" lang="fr">
+                <input type="submit" value="Senden" class="btn btn-primary ger" lang="de">
+            </form>
+            </div>
+            <!--END OF CONTACT US CARD-->
+    </section>
+
+    <!-- Services main -->
+    <section class="section-services">
+        <div class="container-grid">
+            
+            <div class="tabs">
+                <!--<div class="card bg-light p-3 "> -->     
+                    
+                    <div class="tabs__sidebar card bg-light  container-grid">
+                        <h3 class="lg my-2">Software Implementation</h3>
+                        <button class="lead tabs__button tabs__button--active" data-for-tab="1">Analysis</button>
+                        <button class="lead tabs__button" data-for-tab="2">Implementation</button>
+                        <button class="lead tabs__button" data-for-tab="3">Support</button>
+                   
+                        <h3 class="lg my-2">Data Analytics</h3>
+                        <button class="lead tabs__button" data-for-tab="4">Descriptive</button>
+                        <button class="lead tabs__button" data-for-tab="5">Predictive</button>
+                        <button class="lead tabs__button" data-for-tab="6">Prescriptive</button>
+                    </div>
+                 
+                   
+                        <!--<h3 class="my-2">Analytics</h3>
+                        <nav>
+                             <ul>
+                                <li><a data-toggle="tab" href="#">Setting up a container</a></li>
+                                <li><a data-toggle="tab"  href="#">Using the CLI</a></li>
+                                <li><a data-toggle="tab" href="#">Managing resources</a></li>
+                                <li><a data-toggle="tab" href="#">Upgrade & downgrade</a></li>
+                             </ul>
+                        </nav>-->
+                <!--</div>-->
+                <!--<div class="card">-->
+                    <div class="lead tabs__content tabs__content--active card container-grid" data-tab="1">
+                    
+                         <h2>No two projects are the same.</h2>
+                        <p class="my-2"> Each project is as unique as the clients it serves. As such, we promise to
+                            listen closely to the requirements of your organization. Before starting an implementation 
+                            project, we develop an understanding of your, evaluate and 
+                            document processes and requirements, and provide the decision makers with a broad basis of 
+                            information and a detailed project estimate. <br>
+                        </p>
+                        
+                        <p>
+                            Your organization operates in the incredible complexity of the modern high-tech world. 
+                            As a result, it is subject to a myriad of business pressures. Business management software is 
+                            critically important in helping organizations respond rapidly to opportunities and problems and 
+                            in supporting their strategies.<br>
+                        </p>
+
+                       
+                        <p class="m-2"> <i class="fas fa-search"></i> A thorough analysis gives us the chance to familiarize ourselves with your organization's strategy, mission, and goals
+                            and to understand your business processes. Only then can we determine 
+                            the right business management software for your needs and  start tailoring our solutions for you.<br>
+                        </p>
+                         
+                        <h4>   Having a clearly defined set of goals minimizes the probability of project impediment thereby saving valuable 
+                            resources.
+                        </h4>
+                        <p>     To ensure a smooth and efficient implementation, we offer two different analysis approaches - 
+                            Proof of Concept and Workshop. After each, we can then provide you with a detailed project 
+                            estimate. </p>
+                    </div>
+                    <div class="tabs__content card container grid" data-tab="2">
+                         <h2>Implementation</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eius a aperiam nobis provident iste ipsum sunt quae eaque, iure nihil ab nisi dolorum! Fuga animi culpa veritatis voluptatem odit pariatur, vitae quos laboriosam! Temporibus sit explicabo illo recusandae deserunt quia ea dolores commodi quas nobis, distinctio nesciunt labore excepturi sed iste officiis rem doloremque vero dolorum ad repudiandae eaque quae! Autem nihil fugit tenetur. Repellendus praesentium, doloremque pariatur aspernatur modi odit accusantium nisi suscipit sint sunt sed distinctio quas hic! Alias pariatur voluptas consequuntur aliquam quam ad odio aperiam delectus eveniet hic accusamus laborum repellat fuga quisquam blanditiis, natus quas vero enim dignissimos quae. Delectus enim, corporis aliquid aliquam perspiciatis debitis sed quaerat et facilis minima, illum saepe assumenda quae repudiandae consequuntur dicta error tenetur. Vero totam delectus, vel eos rerum culpa quia! Labore provident, velit nihil a porro molestias assumenda optio fugiat suscipit! Culpa tempore a, deserunt veniam rerum sint quasi pariatur quia ipsa ullam nihil quod autem impedit quos similique exercitationem cupiditate atque? Ab, ratione. Placeat assumenda quam aut possimus, molestiae est nihil animi eligendi consequuntur vero quis cumque, soluta adipisci unde tempora itaque laudantium odit culpa. Eligendi debitis fugiat recusandae aliquam dolorum quasi rem odio quia!
+                        </p>
+                    </div>
+                    <div class="tabs__content card container grid" data-tab="3">
+                         <h2>Support</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam quo numquam vero nam veritatis delectus consequatur tempore consectetur provident enim quidem ex, eius nihil voluptatibus repellendus doloremque perferendis? Beatae expedita neque illum debitis explicabo, ratione asperiores assumenda exercitationem voluptatibus architecto labore nesciunt maiores repellendus quia amet et dolorem nulla perspiciatis. Ex, rerum commodi voluptatem officia voluptatum dolorem sed cupiditate repellat eveniet maxime inventore quo dignissimos saepe natus est consequuntur exercitationem eligendi. Fugit, at. Eos possimus tempora quae, neque adipisci necessitatibus animi dignissimos? Nesciunt odit, enim obcaecati consequuntur amet, illo, vero vel eos rem totam nisi minus suscipit similique beatae dolorem deserunt dignissimos! Quidem est dicta, quo libero officia sequi laboriosam rerum velit sint nisi quasi modi saepe harum adipisci repellat placeat a facere vel repellendus dolore labore? Ullam ducimus assumenda at molestias enim dignissimos eos cupiditate officia hic possimus, tempora quam veritatis voluptate consectetur exercitationem veniam. Provident ab, minus excepturi magnam doloremque consequatur tempore molestiae debitis libero inventore possimus magni ipsa incidunt. Adipisci aut, atque odio earum ab magni magnam hic maiores tenetur necessitatibus dignissimos pariatur aliquam voluptates molestiae nihil rerum placeat unde iste explicabo nesciunt odit. Alias, in consectetur eveniet magnam nihil velit! Hic distinctio vero quisquam officia placeat provident, voluptas necessitatibus unde? Necessitatibus placeat ex quidem tenetur ratione? Quod deleniti quos sunt labore ducimus cumque recusandae dolorem nisi, mollitia aspernatur neque delectus eum nulla esse, vel pariatur, similique voluptate voluptatum nam soluta autem adipisci nobis reprehenderit ipsam? Id aut neque culpa ab omnis, molestias tempore et dolorem enim repellendus officiis vitae consequuntur dicta officia eius? Id blanditiis officia nisi labore praesentium fuga voluptas deserunt provident at dolores quaerat doloribus, assumenda reiciendis illum repudiandae ab, perferendis dicta explicabo enim. Similique quas dolorum ipsum soluta! Hic impedit, quod, beatae vitae facere eligendi a tempora distinctio voluptatum, maxime delectus? Illum, incidunt rem ut hic fuga facere similique. Dolore optio excepturi suscipit quo minus in architecto incidunt aperiam laboriosam non et facere esse impedit ratione, officia quidem maxime eius inventore aut dignissimos praesentium, autem possimus. Eum cum tenetur vero dolore saepe repudiandae doloribus, officia ipsa cupiditate vitae nulla eius veniam distinctio mollitia debitis culpa nemo nesciunt autem consectetur, odio quos molestiae explicabo. Eos ea excepturi dolores voluptatum, optio incidunt quos atque amet enim non consequatur temporibus maxime ex! Sunt, ea magnam eveniet aut laborum ratione reiciendis sit praesentium cum quam quod esse dolores hic soluta corrupti omnis distinctio dolore repellendus iure qui eaque accusamus, numquam, tenetur adipisci? Necessitatibus in, blanditiis molestias id recusandae qui! Porro harum quidem sint? Veritatis blanditiis quia ad perferendis voluptas amet repellat maiores eveniet non corrupti, vitae maxime voluptatibus alias saepe est quam libero soluta fuga harum eum deleniti! Sint minima dignissimos aspernatur amet! Laudantium, quasi! Consequuntur sint rerum ducimus possimus aperiam maiores et adipisci recusandae ex corrupti, optio, labore officiis porro tempora sed, incidunt magnam ipsa temporibus iusto cupiditate laboriosam culpa ut? Reprehenderit fugit alias ab ipsa? Omnis ipsa perspiciatis dolores blanditiis nihil dolorem voluptas! Iure autem rem eaque voluptates eligendi voluptate provident, veniam exercitationem nulla. Cumque!</p>
+                    </div>
+                <!--</div>-->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid-3 flex">
+            <div class="company-name">
+                <h1>Integrated Data Solutions
+                </h1>
+                <p>Copyright &copy; 2022</p>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="odoo.html">Odoo</a></li>
+                    <li><a href="sap.html">SAP</a></li>
+                    <li><a href="about_us.html">About us</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="/js/translation.js"></script>
+    <script src="/js/active_buttons.js"></script>
+</body>
+</html>
