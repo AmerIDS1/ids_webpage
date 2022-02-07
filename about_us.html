@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/body_style.css">
+    <link rel="stylesheet" href="css/navbar_style.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>Team</title>
+</head>
+<body>
+     <!-- Navbar -->
+     <div class="navbar">
+        <div class="container flex">
+            <!--LOGO IMAGE-->
+            <div class="logo">
+                <img src="images/IDS_Logo_No_BG.png" alt="IDS">
+             </div>
+            <!-- Page Navigation -->
+            <div class="page-navigation">
+                <ul>
+                    <li><a href="index.html" class="eng" lang="en">Home</a></li>
+                    <li><a href="index.html" class="fra" lang="fr">Accueil</a></li>
+                    <li><a href="index.html" class="ger" lang="de">Startseite</a></li>
+    
+    
+                    <li><a href="services.html" class="eng" lang="en">Services</a></li>
+                    <li><a href="services.html" class="fra" lang="fr">Services</a></li>
+                    <li><a href="services.html" class="ger" lang="de">Leistungen</a></li>
+    
+    
+                    <li><a href="odoo.html" class="eng" lang="en">Odoo</a></li>
+                    <li><a href="odoo.html" class="fra" lang="fr">Odoo</a></li>
+                    <li><a href="odoo.html" class="ger" lang="de">Odoo</a></li>
+    
+    
+                    <li><a href="sap.html" class="eng" lang="en">SAP</a></li>
+                    <li><a href="sap.html" class="fra" lang="fr">SAP</a></li>
+                    <li><a href="sap.html" class="ger" lang="de">SAP</a></li>
+    
+    
+                    <li><a href="about_us.html" class="eng" lang="en">About us</a></li>
+                    <li><a href="about_us.html" class="fra" lang="fr">A propos</a></li>
+                    <li><a href="about_us.html" class="ger" lang="de">Über uns</a></li>
+    
+                    <li><a href="testimonials.html" class="eng" lang="en">Testimonials</a></li>
+                    <li><a href="testimonials.html" class="fra" lang="fr">Témoignages</a></li>
+                    <li><a href="testimonials.html" class="ger" lang="de">Referenzen</a></li>
+    
+    
+                    <!--load hamburger icon from font-awesome library -->
+                    <!--this link with class="icon" is used to select pages on small screens.-->
+                    <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                        </a> </li>
+                </ul>
+                
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn eng" lang="en">EN
+                    <!--<i class="fas fa-caret-down"></i>-->
+                </button>
+                <button class="dropbtn fra" lang="fr">FR
+                    <!--<i class="fas fa-caret-down"></i>-->
+                </button>
+                <button class="dropbtn ger" lang="de">DE
+                    <!--<i class="fas fa-caret-down"></i>-->
+                </button>
+                    <div class="lang-menu">
+                        <ul>
+                            <li><a id="eng" class="languages english"> EN</a> </li>
+                            <li><a id="fra" class="languages french"> FR</a></li>
+                            <li><a id="ger" class="languages german"> DE</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div> 
+    
+<!-- END OF NAVBAR-->
+
+
+    <!-- Head -->
+    <section class="header-section bg-dark">
+        <div class="container grid-2">
+            <div>
+                <h1 class="xl">Nice to meet you</h1>
+                <p class="lead">
+                    This is our story.
+                </p>
+            </div>
+         
+            <!--CONTACT US CARD-->
+            <div class="showcase-form card">
+            <h2 class="eng" lang="en">
+                Contact us
+            </h2>
+            <h2 class="fra" lang="fr">
+                Contactez-nous
+            </h2>
+            <h2 class="ger" lang="de">
+                Kontaktieren Sie uns
+            </h2>
+               <!--<form name="contact" netlify-honeypot="bot-field" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact">
+                <p class="hidden">
+                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                  </p>
+                <div class="form-control">
+                    <input type="text" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-control">
+                    <input type="text" name="company" placeholder="Company Name" required>
+                </div>
+                <div class="form-control">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <input type="submit" value="Send" class="btn btn-primary">
+            </form>-->
+            <form>
+                <div class="form-control">
+                    <input class="eng" lang="en" type="text" name="name" placeholder="Name" required>
+                    <input class="fra" lang="fr" type="text" name="name" placeholder="Nom" required>
+                    <input class="ger" lang="de" type="text" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-control">
+                    <input class="eng" lang="en" type="text" name="company" placeholder="Company Name" required>
+                    <input class="fra" lang="fr" type="text" name="company" placeholder="Nom de l'entreprise" required>
+                    <input class="ger" lang="de" type="text" name="company" placeholder="Unternehmensname" required>
+                </div>
+                <div class="form-control">
+                    <input class="eng" lang="en" type="email" name="email" placeholder="Email" required>
+                    <input class="fra" lang="fr" type="email" name="email" placeholder="Email" required>
+                    <input class="ger" lang="de" type="email" name="email" placeholder="Email" required>
+                </div>
+                <input type="submit" value="Send" class="btn btn-primary eng" lang="en">
+                <input type="submit" value="Envoyer" class="btn btn-primary fra" lang="fr">
+                <input type="submit" value="Senden" class="btn btn-primary ger" lang="de">
+            </form>
+            </div>
+            <!--END OF CONTACT US CARD-->
+
+        </div>
+            
+       
+    </section>
+
+    <!--Our story -->
+    <!--<section class="story">
+        <h2 class="lg text-center my-1">Our company</h2>
+        <div class="container">
+            <h3 class="stats-heading text-justify my-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nam nostrum, voluptates ea omnis natus 
+                voluptate! Doloribus, nihil! Voluptate nesciunt tempore esse blanditiis non, accusamus ex aperiam. 
+                Distinctio, rem, libero exercitationem illo, repellat fugiat beatae veritatis veniam non odit porro 
+                vero laborum inventore. Iure aliquid corrupti cupiditate quaerat debitis commodi.
+               
+            </h3>
+        </div>
+    </section> -->
+
+    <!--  What separates us  -->
+    about_us my-2 py-2
+
+    <section class="section_about_us ">
+        <div class="container grid">
+            <img src="images/IDS_Logo_No_BG.png"  alt="">
+            <div class="text-center ">
+                <h2 class="lg text-center my-1">
+                    Our company
+                </h2>
+                    <p class="text-justify my-1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nam nostrum, voluptates ea omnis natus 
+                        voluptate! Doloribus, nihil! Voluptate nesciunt tempore esse blanditiis non, accusamus ex aperiam. 
+                        Distinctio, rem, libero exercitationem illo, repellat fugiat beatae veritatis veniam non odit porro 
+                        vero laborum inventore. Iure aliquid corrupti cupiditate quaerat debitis commodi.
+               
+                    </p>
+            </div>
+            
+        </div>
+
+        <div class="container grid">
+            <!--<i class="fas fa-book-open fa-10x"></i>-->
+            
+            <div class="text-center">
+                <h2 class="lg">What separates us</h2>
+                <p class=" text-justify my-1">Client proximity, competence and flexibility aren't just marketing buzzwords 
+                    to us – they are the founding stones of our relationship with you. When we agree on a project, we focus 
+                    our full attention on its implementation. Irrespective of whether it is a big or a small project, our goal 
+                    is to tailor the best solution for you.</p>
+                
+            </div>
+            <img  src="images/wheat-chaff.jpg" alt="">
+        </div>   
+            <!--<video class="help_grow" width="533" height="300" src="animations/Help_Grow_Blue.mp4" muted autoplay></video>-->
+           <!--<-->
+        
+    
+    
+    </section>
+
+
+    <!--Facts and Figures-->
+
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center lg">Facts and Figures</h2>
+            <div class="grid grid-3 my-4">
+                <div class="lead text-center text-secondary">
+                    
+                    <i class="fas fa-project-diagram fa-3x"></i>
+                    <h3>
+                        123
+                    </h3>
+                    <p class="md">  
+                        Projects
+                    </p>
+                </div>
+                <div class="lead text-center text-secondary">
+                    <i class="fas fa-users fa-3x"></i>
+                    <h3>456</h3>
+                    <p class="md">Happy Clients</p>
+                </div>
+                <div class=" lead text-center text-secondary">
+                    <i class="fas fa-atlas fa-3x"></i>
+                    <h3>789</h3>
+                    <p class="md">Geographies</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TEAM  -->
+
+
+     <section class="section-team bg-dark">
+        <div class="container">
+            <h2 class="text-center lg">The Team</h2>
+            <div class="grid-2-reverse my-3 ">
+                <div>
+                    <img src="images/bw_photo_colin.jpg"  alt=""> <br> Colin Tulley, CEO
+                </div>  
+                <div> 
+                   
+                    <p class="text-justify">
+                        Colin is a member of the Chartered Institute of Management Accountants (CIMA). He holds an FI-CO 
+                        certification from SAP and has over 10 years experience in delivering Financial systems with a 
+                        focus on Business Planning and Consolidation. He has participated in multiple SAP implementations, 
+                        upgrades and rollout projects in various industries such as Retail and Manufacturing. He holds 
+                        strong analytical and problem-solving skills which are suitable for requirement gathering, process 
+                        design, system development and implementation. His communication and analytical skills enable him 
+                        to identify and meet business and technical needs by translating them into specific technical 
+                        requirements in order to implement the appropriate application. His focus is growing IDS's product 
+                        offering to include other data visualization tools such Tableau and Sap Analytics Cloud (SAC) and 
+                        is developing a state of the art team to secure, lead and deliver new projects and missions.
+                        <br>
+                        &nbsp;
+                        <br>
+                        <i class="fa fa-envelope" style="font-size:24px;color:white"></i> &nbsp;
+                        colin.tulley@integrated-data-solutions.com 
+                        <br>
+                        &nbsp;
+                        <br>
+                        <i>'For every reason it's not possible, there are hundreds of people who have faced the same 
+                            circumstances and succeeded'</i> &nbsp; -  &nbsp; Jack Canfield   
+                       
+                        
+                       
+                    </p>   
+                </div>
+            </div>
+            <div class="grid-2">    
+                <div>
+
+                    <p class="text-justify">
+                       
+                        Vadim is an experienced BPC consultant with IT Management background in past. 
+                        He has worked as the CIO for a number of big international companies in various industries 
+                        such as Food, Media and Manufacturing. During the last 5 years he is providing consultancy and 
+                        development for 7 major BPC projects in Switzerland, Great Britain, Belgium, Luxembourg and other 
+                        countries of European Union and North America. He is actively participating in the SAP Community, 
+                        being the top expert in SAP BPC area for the last 4 years. He also has experience in BW and HANA 
+                        systems configuration and development. Vadim has a strong finance background and deep knowledge of 
+                        various business processes and he is able to analyze complex customer requirements and to provide 
+                        system architecture and implementation plan. His development skills include ABAP, C++, JavaScript, 
+                        SQL and VBA. He is an expert in customization and development of Tableau applications and Sap 
+                        Analytical Cloud (SAC) models. His hobby is playing with electronics and microprocessors. 
+                        <br>
+                        &nbsp;
+                        <br>
+                        <i class="fa fa-envelope" style="font-size:24px;color:white"></i>&nbsp;  vadim.Kalinin@integrated-data-solutions.com 
+                        <br>
+                        &nbsp;
+                        <br>
+                        <i>'Common sense is seeing things as they are; and doing things as they ought to be.'</i> &nbsp;
+                         - &nbsp; Harriet Beecher Stowe                    
+                     </p>
+                </div>
+                <div>
+                     <img src="images/bw_vkalinin-small.jpg"  alt=""><p class="text-light"><strong>Vadim Kalinin,<br> Head of Architecture and Development</strong> </p>  
+                </div>
+            </div>
+
+            <div class="grid-2-reverse my-4">  
+                
+                <div>
+                    <img src="images/Neil.png"  alt="">Neil Bradshaw, <br> Senior Consultant, Tableau Data Visualisation
+                </div> 
+                
+                <div>
+                    <p class="text-justify">  
+                        Neil is a qualified Chartered Management Accountant (CIMA) and has guided 
+                        multiple clients over the last 5 years to create effective actionable insight with Tableau in 
+                        London and Europe. Neil has been down many cul de sacs with previous clients, meaning you don't 
+                        have to follow them and instead will be able to fast-track your data viz projects with his 
+                        experience and knowledge. He produces pragmatic solutions with strong emphasis on meeting 
+                        stakeholder needs. Neil is also passionate in building dashboard creation capability within 
+                        organisations by facilitating simple and effective bitesize training sessions.<br> &nbsp; <br>
+
+                        <i class="fa fa-envelope" style="font-size:24px;color:white"></i> Neil.Bradshaw@integrated-data-solutions.com<br>
+                         &nbsp; <br> <i>'It is not the strongest of the species that survive, nor the most intelligent, but the one more 
+                         responsive to change.'</i> &nbsp; - &nbsp; Charles Darwin 
+                </div>
+            </div>
+            <div class="grid-2 ">
+                <div>
+                    <p class="text-light">Amer Tabaković<br> </p>
+                    <p class="text-justify">   <br> &nbsp; <br>
+
+                        <i class="fa fa-envelope" style="font-size:24px;color:white"></i> atabakovic@integrated-data-solutions.com<br>
+                         &nbsp; <br> <i></i> &nbsp; - &nbsp;  <br> &nbsp; <br> &nbsp; <br> &nbsp;<br> &nbsp; 
+                         <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp;</p>
+                </div>
+                <div>
+                    <img src=#  alt="">
+                </div>
+            </div>    
+           
+        </div>
+    </section>
+
+<!------------------------------------------------------------------->
+
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid-3 flex">
+            <div class="company-name">
+                <h1>Integrated Data Solutions
+                </h1>
+                <p>Copyright &copy; 2022</p>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="odoo.html">Odoo</a></li>
+                    <li><a href="sap.html">SAP</a></li>
+                    <li><a href="about_us.html">About us</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/translation.js"></script>  
+
+</body>
+</html>
